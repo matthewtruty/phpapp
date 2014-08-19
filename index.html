@@ -1,38 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
 
-<h1>Hello World!</h1>
-<p>Integer tincidunt. Vestibulum ullamcorper mauris at ligula. Fusce a quam. Sed fringilla mauris sit amet nibh. Sed fringilla mauris sit amet nibh.
 
-    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Proin magna. Proin magna. Donec mollis hendrerit risus.
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!-- Bootstrap -->
+    <link href="assets/css/styles.css" rel="stylesheet">
 
-    Morbi vestibulum volutpat enim. Nunc sed turpis. Praesent venenatis metus at tortor pulvinar varius. Donec mollis hendrerit risus. Praesent egestas neque eu enim.
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-static ">
+    <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand logo" href="/"> <i class="fa fa-code"></i> Code</a>
+    </div>
 
-    Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Sed a libero. Etiam sit amet orci eget eros faucibus tincidunt. Donec posuere vulputate arcu. Curabitur ullamcorper ultricies nisi.
 
-    Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante vel mi. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Nulla sit amet est. Aliquam erat volutpat.
-    Integer tincidunt. Vestibulum ullamcorper mauris at ligula. Fusce a quam. Sed fringilla mauris sit amet nibh. Sed fringilla mauris sit amet nibh.
+    <div class="collapse navbar-collapse js-navbar-collapse blue-theme-nav">
+        <ul class="nav navbar-nav">
 
-    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Proin magna. Proin magna. Donec mollis hendrerit risus.
+            <li class="dropdown dropdown-large">
+                <a href="#" class="dropdown-toggle blue-theme-nav-link" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu dropdown-menu-large row">
+                    <li class="col-sm-3">
+                        <ul>
+                            <li class="dropdown-header">Glyphicons</li>
+                            <li><a href="#">Available glyphs</a></li>
+                            <li class="disabled"><a href="#">How to use</a></li>
+                            <li><a href="#">Examples</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">Dropdowns</li>
+                            <li><a href="#">Example</a></li>
+                            <li><a href="#">Aligninment options</a></li>
+                            <li><a href="#">Headers</a></li>
+                            <li><a href="#">Disabled menu items</a></li>
+                        </ul>
+                    </li>
+                    <li class="col-sm-3">
+                        <ul>
+                            <li class="dropdown-header">Button groups</li>
+                            <li><a href="#">Basic example</a></li>
+                            <li><a href="#">Button toolbar</a></li>
+                            <li><a href="#">Sizing</a></li>
+                            <li><a href="#">Nesting</a></li>
+                            <li><a href="#">Vertical variation</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">Button dropdowns</li>
+                            <li><a href="#">Single button dropdowns</a></li>
+                        </ul>
+                    </li>
+                    <li class="col-sm-3">
+                        <ul>
+                            <li class="dropdown-header">Input groups</li>
+                            <li><a href="#">Basic example</a></li>
+                            <li><a href="#">Sizing</a></li>
+                            <li><a href="#">Checkboxes and radio addons</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">Navs</li>
+                            <li><a href="#">Tabs</a></li>
+                            <li><a href="#">Pills</a></li>
+                            <li><a href="#">Justified</a></li>
+                        </ul>
+                    </li>
 
-    Morbi vestibulum volutpat enim. Nunc sed turpis. Praesent venenatis metus at tortor pulvinar varius. Donec mollis hendrerit risus. Praesent egestas neque eu enim.
+                    <li class="col-sm-3">
+                        <ul>
+                            <li class="dropdown-header online">Find my code online</li>
+                            <li class="dropdown-box dropdown-box-red left"> <a target="_blank" href="http://linkd.in/1BjJEoq">linkd.in/1BjJEoq</a></li>
+                            <li class="dropdown-box dropdown-box-white right"><a target="_blank" href="http://bit.ly/1l8vOAI">bit.ly/1l8vOAI</a></li>
+                            <li class="dropdown-box dropdown-box-white left"><a target="_blank" href="http://bit.ly/1l8vOAI">bit.ly/1l8vOAI</a></li>
+                            <li class="dropdown-box dropdown-box-blue right"> <a target="_blank" href="http://bit.ly/1vQQmC9">bit.ly/1vQQmC9</a></li>
 
-    Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Sed a libero. Etiam sit amet orci eget eros faucibus tincidunt. Donec posuere vulputate arcu. Curabitur ullamcorper ultricies nisi.
 
-    Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante vel mi. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Nulla sit amet est. Aliquam erat volutpat.
-    Integer tincidunt. Vestibulum ullamcorper mauris at ligula. Fusce a quam. Sed fringilla mauris sit amet nibh. Sed fringilla mauris sit amet nibh.
 
-    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Proin magna. Proin magna. Donec mollis hendrerit risus.
 
-    Morbi vestibulum volutpat enim. Nunc sed turpis. Praesent venenatis metus at tortor pulvinar varius. Donec mollis hendrerit risus. Praesent egestas neque eu enim.
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Link</a></li><li><a href="#">Link</a></li><li><a href="#">Link</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                </ul>
+            </li>
+        </ul>
 
-    Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Sed a libero. Etiam sit amet orci eget eros faucibus tincidunt. Donec posuere vulputate arcu. Curabitur ullamcorper ultricies nisi.
+    </div><!-- /.nav-collapse -->
+</nav>
 
-    Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante vel mi. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Nulla sit amet est. Aliquam erat volutpat.
-    Integer tincidunt. Vestibulum ullamcorper mauris at ligula. Fusce a quam. Sed fringilla mauris sit amet nibh. Sed fringilla mauris sit amet nibh.
+<div class="container">
 
-    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Proin magna. Proin magna. Donec mollis hendrerit risus.
+    <!-- Main component for a primary marketing message or call to action -->
 
-    Morbi vestibulum volutpat enim. Nunc sed turpis. Praesent venenatis metus at tortor pulvinar varius. Donec mollis hendrerit risus. Praesent egestas neque eu enim.
 
-    Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Sed a libero. Etiam sit amet orci eget eros faucibus tincidunt. Donec posuere vulputate arcu. Curabitur ullamcorper ultricies nisi.
+</div> <!-- /container -->
 
-    Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante vel mi. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Nulla sit amet est. Aliquam erat volutpat.</p>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Latest compiled and minified JavaScript -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="assets/js/scripts.js"></script>
+</body>
+</html>
