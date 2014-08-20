@@ -17,7 +17,7 @@ function init(){
             echo "Your favorite color is green!";
             break;
         default:
-            echo "Your favorite color is neither red, blue, or green!";
+            
     }
 
 
