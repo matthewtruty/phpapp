@@ -5,13 +5,13 @@
 
 function init(){
 
-   echo  $page = get_page();
+    $page = get_page();
     #maps a file to a particular page on the site
     if($page == "index.php"){
             echo"INDEX.PHP";
     }
     elseif($page == "about.php"){
-        echo"<div class='container'>ABOUT.PHP</div>";
+        include "content/pages/about/content.php";
     }
 
 
