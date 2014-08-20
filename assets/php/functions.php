@@ -4,7 +4,14 @@
 
 function init(){
 
-    echo get_page();
+
+    echo "<div class='container'>
+    TEST
+</div> <!-- /container -->
+
+
+";
+    echo $t = get_page();
    /* #maps a file to a particular page on the site
     switch ($page) {
         case "index":
