@@ -1,25 +1,19 @@
+
+
+
 <?php
-/**
- * Created by PhpStorm.
- * User: mtruty
- * Date: 8/19/14
- * Time: 3:46 PM
- */
+    include("common/header.php"); //include the configs / constants for the database connection
+    include("common/nav.php"); //include the configs / constants for the database connection
+?>
 
-echo "Hello World - PHP";
+<body>
 
 
+<div class="container">
+    <!-- Main component for a primary marketing message or call to action -->
+</div> <!-- /container -->
 
 
-  $connectionInfo = array("UID" => "mtruty@xy70sqt4b9", "pwd" => "JMJpray4MDT$$", "Database" => "phpapp", "LoginTimeout" => 30, "Encrypt" => 1);
-  $serverName = "tcp:xy70sqt4b9.database.windows.net,1433";
-  $conn = sqlsrv_connect($serverName, $connectionInfo);
+</body>
 
-
-
-if( $conn ) {
-     echo "Connection established.<br />";
-}else{
-     echo "Connection could not be established.<br />";
-     die( print_r( sqlsrv_errors(), true));
-}
+<?php include("common/footer.php"); //include the configs / constants for the database connection ?>

@@ -20,19 +20,16 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 </head>
-<body>
+
+<?php
+/**
+ * Created by PhpStorm.
+ * User: mtruty
+ * Date: 8/20/14
+ * Time: 10:21 AM
+ */
 
 
-<div class="container">
-    <!-- Main component for a primary marketing message or call to action -->
-</div> <!-- /container -->
+include("db.php"); //include the configs / constants for the database connection
 
-
-</body>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<!-- Latest compiled and minified JavaScript -->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="assets/js/scripts.js"></script>
-</html>
+?>
