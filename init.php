@@ -1,4 +1,5 @@
 <body>
+init.php
 <?php
 ## Main php file that loads contents to the homepage
 
