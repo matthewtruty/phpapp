@@ -10,6 +10,9 @@ function init(){
     if($page == "index.php"){
             echo"INDEX.PHP";
     }
+    elseif($page == "about.php"){
+        echo"<div class='container'>ABOUT.PHP</div>";
+    }
 
 
 
