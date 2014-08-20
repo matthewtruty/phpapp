@@ -9,7 +9,7 @@ function init(){
     #maps a file to a particular page on the site
     switch ($page) {
         case "index.php":
-            include("../content/pages/home.php");
+            include("content/pages/home.php");
         case "blue":
             echo "Your favorite color is blue!";
             break;

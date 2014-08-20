@@ -14,7 +14,7 @@
 
 
 <div class="container">
-    I'm Home. I'm home. 
+    I'm Home. I'm home.
 </div> <!-- /container -->
 
 
