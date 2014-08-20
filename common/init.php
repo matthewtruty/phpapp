@@ -5,6 +5,6 @@
 
 include("assets/php/functions.php");
 init(); // load correct page content
-echo "HERE";
+
 ?>
 </body>

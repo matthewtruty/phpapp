@@ -4,5 +4,4 @@
     include("common/init.php"); //loads site content
     include("common/footer.php"); //include the closing tags and JS files
 
-?>
 
