@@ -23,5 +23,5 @@ define("DB_U", "mtruty_labsadmin");
 define("DB_P", "JMJpray4MDT$$");
 
 
-$db_connection = mysqli_connect(DB_H, DB_U, DB_P, DB_N);
-mysqli_close($db_connection);
+/*$db_connection = mysqli_connect(DB_H, DB_U, DB_P, DB_N);
+mysqli_close($db_connection);*/
