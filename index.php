@@ -1,3 +1,4 @@
+HELLO, JOE!
 <?php
     include("common/header.php"); //include header info (DB,Title,etc)
     include("common/nav.php"); //loads site navigation
